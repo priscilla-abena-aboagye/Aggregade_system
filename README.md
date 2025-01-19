@@ -6,3 +6,8 @@ This **Python** file processes student scores to assign grades based on predefin
 
 ## Technologies Used 
 - Python
+
+## Features
+- Takes user input for name, subjects, and corresponding grades.
+- Calculates the overall grade as an average of the grades provided.
+- Displays a summary including the user's name, subjects, individual grades, and the overall grade.
