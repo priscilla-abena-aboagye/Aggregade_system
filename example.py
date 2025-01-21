@@ -1,15 +1,28 @@
-print(input("Enter your name: "))
+userName = (input("Enter your name: "))
 score = 0
-allSubject = []
+allSubject = {}
+
+
 while True:
     subject = input("Enter the subject (press q to quit): ").lower()
-    grade = input("Enter the grade (press q to quit): ").lower()
+    
     if subject == "q":
-        allSubject.append(subject)
         break
         
-    elif grade == "q":
+    grade = input("Enter the grade (press q to quit): ").lower()
+    if grade == "q":
          break
+
+    if grade == "" or subject == "":
+        print("Invalid")
+    else:
+        allSubject[subject] = grade
+print(f"Your Name is {userName}")
+print("All Subject and grade")
+for subject, grade in allSubject.items():
+    print(f"{subject.capitalize()}: {grade.upper()}")
+
+
 # score = int(score)
 
 # print(allSubject)
