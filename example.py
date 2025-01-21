@@ -23,12 +23,4 @@ for subject, grade in allSubject.items():
     print(f"{subject.capitalize()}: {grade.upper()}")
 
 
-# score = int(score)
 
-# print(allSubject)
-
-# foodStuffs = ['mango', 'guava', 'pear']
-# prices = [10, 11, 200]
-
-# myDictionary = dict(zip(foodStuffs, prices))
-# print(myDictionary)
