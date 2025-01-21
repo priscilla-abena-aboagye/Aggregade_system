@@ -18,7 +18,7 @@ while True:
     else:
         allSubject[subject] = grade
 print(f"Your Name is {userName}")
-print("All Subject and grade")
+print("All of your Subject and grade")
 for subject, grade in allSubject.items():
     print(f"{subject.capitalize()}: {grade.upper()}")
 
