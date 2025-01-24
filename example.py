@@ -17,6 +17,8 @@ while True:
         print("Invalid")
     else:
         allSubject[subject] = grade
+
+
 print(f"Your Name is {userName}")
 print("All of your Subject and grade")
 for subject, grade in allSubject.items():
