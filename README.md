@@ -5,7 +5,7 @@ This python code was done to processes student scores to assign grades.
 This **Python** file processes student scores to assign grades based on predefined criteria. It typically includes input handling, grade calculation, and output display
 
 ## Technologies Used 
-- Python
+- Python : Core programming language for implementing the aggregate system.
 
 ## Features
 - Takes user input for name, subjects, and corresponding grades.
